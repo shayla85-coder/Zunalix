@@ -1002,7 +1002,7 @@ header, .cabecera {
     }
 
 .close-btn:hover {
-        transform: rotate(90deg) !important;
+        transform: rotate(90deg);
     }
 
     /* CAMBIOS AL FOOTER EN EL CELULAR */
