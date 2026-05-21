@@ -404,8 +404,7 @@ header, .cabecera {
     color: #f0f0f0;
 }
 
-/* ==========================================
-   ESTILOS EXCLUSIVOS - PÁGINA PROYECTOS (proyectos.html)
+/* ========================================== PÁGINA PROYECTOS (proyectos.html)
    ========================================== */
 .zona-proyectos {
     flex: 1;
@@ -508,8 +507,7 @@ header, .cabecera {
     color: #fff;
 }
 
-/* ==========================================
-   ESTILOS EXCLUSIVOS - PÁGINA GALERÍA (galeria.html)
+/* ==========================================  PÁGINA GALERÍA (galeria.html)
    ========================================== */
 .zona-galeria {
     flex: 1;
@@ -848,7 +846,6 @@ header, .cabecera {
 
 /* ==========================================
    7. ADAPTACIÓN RESPONSIVE (SOLO PARA CELULARES < 768px)
-   ⚠️ TODO LO QUE ESTÁ AQUÍ ADENTRO SOLO SE APLICA EN PANTALLAS CHICAS
    ========================================== */
 @media screen and (max-width: 768px) {
     .hero {
@@ -917,13 +914,13 @@ header, .cabecera {
 
     header, .cabecera {
         display: flex !important;
-        justify-content: space-between !important;
-        align-items: center !important;
+        justify-content: space-between;
+        align-items: center;
     }
 
     /* 1. La Hamburguesa se queda al inicio (Izquierda) */
     .hamburger {
-        display: block !important;
+        display: block;
         order: 1 !important;
         background: none;
         border: none;
