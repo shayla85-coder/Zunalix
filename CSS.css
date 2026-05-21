@@ -905,20 +905,13 @@ header, .cabecera {
     
     /* Cambiamos el contenedor para que ponga las tarjetas una debajo de la otra */
     .contenedor-contacto {
-       
-        flex-direction: column;
-        align-items: center;
-        
-        
-        
+        grid-template-columns: 1fr;
     }
 
-    /* Nos aseguramos de que ambas tarjetas tomen el ancho completo del celular */
-    .bloque-info-contacto, 
+    .bloque-info-contacto,
     .bloque-formulario {
-       
+        width: 100%;
         max-width: 100%;
-        
     }
 
 .close-btn:hover {
