@@ -902,9 +902,6 @@ header, .cabecera {
         cursor: pointer;
         transition: transform 0.3s ease;
         
-
-/* --- ESTILOS RESPONSIVE PARA LA PÁGINA DE CONTACTO --- */
-@media (max-width: 768px) {
     
     /* Cambiamos el contenedor para que ponga las tarjetas una debajo de la otra */
     .contenedor-contacto {
