@@ -93,7 +93,7 @@ header, .cabecera {
 .social-media {
     display: flex;
     align-items: center;
-    gap: 1.5rem;
+    gap: 8px;
 }
 
 .social-media a {
