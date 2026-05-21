@@ -618,9 +618,9 @@ header, .cabecera {
     margin: 0 auto;
     padding: 0 2rem 6rem 2rem;
     display: grid;
-    /* Divide la pantalla en dos columnas iguales en PC */
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
+    flex-direction: column;
 }
 
 /* Tarjeta de Información */
