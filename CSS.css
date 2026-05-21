@@ -404,108 +404,6 @@ header, .cabecera {
     color: #f0f0f0;
 }
 
-/* ========================================== PÁGINA PROYECTOS (proyectos.html)
-   ========================================== */
-.zona-proyectos {
-    flex: 1;
-}
-
-.portada-proyectos {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 10rem 2rem 3rem 2rem;
-    color: #fff;
-    background: transparent;
-}
-
-.mosaico-proyectos {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 2rem 6rem 2rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 2.5rem;
-}
-
-.tarjeta-proyecto {
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 16px;
-    overflow: hidden; /* Corta la imagen para que respete las esquinas redondeadas */
-    transition: 0.3s ease;
-    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
-    display: flex;
-    flex-direction: column;
-}
-
-.tarjeta-proyecto:hover {
-    transform: translateY(-8px);
-    border-color: #FFD700;
-    background: rgba(255, 255, 255, 0.12);
-    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
-}
-
-.imagen-proyecto {
-    height: 220px;
-    background-color: rgba(0, 0, 0, 0.4); /* Fondo por si no hay imagen real listada */
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.05);
-}
-
-.etiqueta-categoria {
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    background: #FFD700;
-    color: #3B4B20;
-    padding: 0.4rem 1rem;
-    font-size: 0.8rem;
-    font-weight: bold;
-    border-radius: 20px;
-    text-transform: uppercase;
-}
-
-.info-proyecto {
-    padding: 2rem 1.5rem;
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-}
-
-.info-proyecto h3 {
-    color: #fff;
-    font-size: 1.4rem;
-    margin-bottom: 0.8rem;
-}
-
-.info-proyecto p {
-    color: #cccccc;
-    font-size: 0.98rem;
-    line-height: 1.6;
-    margin-bottom: 1.5rem;
-    flex: 1; /* Empuja el botón hacia abajo para que queden alineados */
-}
-
-.btn-proyecto-link {
-    color: #FFD700;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 0.95rem;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    transition: 0.2s ease;
-}
-
-.btn-proyecto-link:hover {
-    color: #fff;
-}
 
 /* ==========================================  PÁGINA GALERÍA (galeria.html)
    ========================================== */
@@ -999,6 +897,26 @@ header, .cabecera {
         cursor: pointer;
         transition: transform 0.3s ease;
         
+
+/* --- ESTILOS RESPONSIVE PARA LA PÁGINA DE CONTACTO --- */
+@media (max-width: 768px) {
+    
+    /* Cambiamos el contenedor para que ponga las tarjetas una debajo de la otra */
+    .contenedor-contacto {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+        padding: 0 15px; 
+        box-sizing: border-box;
+    }
+
+    /* Nos aseguramos de que ambas tarjetas tomen el ancho completo del celular */
+    .bloque-info-contacto, 
+    .bloque-formulario {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
     }
 
 .close-btn:hover {
