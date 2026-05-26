@@ -37,14 +37,14 @@ header, .cabecera {
 
 /* LOGO */
 .logo {
-    max-width: 120px;
+    max-width: 120 px;
     height: auto;
-    transition: 0.3s ease;
+    transition: 0.3 s ease;
     cursor: pointer;
 }
 
 .logo:hover {
-    transform: scale(1.05);
+    transform: scale (1.05);
 }
 
 /* NAVBAR */
@@ -52,16 +52,16 @@ header, .cabecera {
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 2 rem;
 }
 
 .nav-list li a {
     text-decoration: none;
     color: #BDB76B;
-    font-size: 1rem;
+    font-size: 1 rem;
     font-weight: bold;
     position: relative;
-    transition: 0.3s ease;
+    transition: 0.3 s ease;
 }
 
 .nav-list li a:hover {
@@ -73,11 +73,11 @@ header, .cabecera {
     content: "";
     position: absolute;
     left: 0;
-    bottom: -5px;
+    bottom: -5 px;
     width: 0%;
-    height: 2px;
+    height: 2 px;
     background: #FFD700;
-    transition: width 0.3s ease;
+    transition: width 0.3 s ease;
 }
 
 .nav-list li a:hover::after {
