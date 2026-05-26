@@ -8,13 +8,13 @@
 }
 
 body {
-    background: linear-gradient (rgba (34, 44, 19, 0.8), rgba (34, 44, 19, 0.8));      
+    background: linear-gradient(rgba(34, 44, 19, 0.8), rgba(34, 44, 19, 0.8));      
     font-family: Arial, sans-serif;
     background-repeat: no-repeat;
     background-attachment: fixed;   
     display: flex;
     flex-direction: column;
-    min-height: 100 vh; 
+    min-height: 100vh; 
 }
 
 /* El bloque contenedor central se estira para mandar el footer abajo */
