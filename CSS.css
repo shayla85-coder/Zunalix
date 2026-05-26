@@ -44,7 +44,7 @@ header, .cabecera {
 }
 
 .logo:hover {
-    transform: scale (1.05);
+    transform: scale(1.05);
 }
 
 /* NAVBAR */
@@ -52,16 +52,16 @@ header, .cabecera {
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 2 rem;
+    gap: 2rem;
 }
 
 .nav-list li a {
     text-decoration: none;
     color: #BDB76B;
-    font-size: 1 rem;
+    font-size: 1rem;
     font-weight: bold;
     position: relative;
-    transition: 0.3 s ease;
+    transition: 0.3s ease;
 }
 
 .nav-list li a:hover {
@@ -880,37 +880,37 @@ header, .cabecera {
         flex-direction: column;
         align-items: center;
         padding-left: 0;
-        gap: 2.5 rem;
+        gap: 2.5rem;
     }
 
     .nav-list li a {
-        font-size: 1.5 rem;
+        font-size: 1.5rem;
     }
 
     .close-btn {
         display: block;
         position: absolute;
-        top: 25 px;
-        right: 25 px;
+        top: 25px;
+        right: 25px;
         background: none;
         border: none;
         outline: none;
-        font-size: 2.5 rem;
+        font-size: 2.5rem;
         color: #FFD700;
         cursor: pointer;
-        transition: transform 0.3 s ease;
+        transition: transform 0.3s ease;
 }
         
     
     /* Cambiamos el contenedor para que ponga las tarjetas una debajo de la otra */
     .contenedor-contacto {
-        grid-template-columns: 1 fr;
+        grid-template-columns: 1fr;
     }
 
     .bloque-info-contacto,
     .bloque-formulario {
-        width: 100 %;
-        max-width: 100 %;
+        width: 100%;
+        max-width: 100%;
     }
 
 .close-btn:hover {
@@ -921,19 +921,19 @@ header, .cabecera {
     .footer-contenido {
         flex-direction: column;
         text-align: center;
-        gap: 2 rem;
-        padding: 1 rem 0;
+        gap: 2rem;
+        padding: 1rem 0;
     }
 
     .footer-links {
         flex-direction: row; 
         justify-content: center;
-        gap: 2 rem;
+        gap: 2rem;
     }
 
     .footer-social {
         justify-content: center;
-        gap: 2.2 rem;
+        gap: 2.2rem;
     }
 }
 
