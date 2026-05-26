@@ -410,7 +410,8 @@ header, .cabecera {
 }
 
 
-/* ==========================================  PÁGINA GALERÍA (galeria.html)
+/* ==========================================
+     PÁGINA GALERÍA (galeria.html)
    ========================================== */
 .zona-galeria {
     flex: 1;
@@ -811,11 +812,8 @@ header, .cabecera {
         padding-bottom: 4rem; 
     }
 
-    @media screen and (max-width: 768px) {
-
-    /* ... Tus otros estilos móviles se quedan igual ... */
-
-    header, .cabecera {
+    @media screen and (max-width: 768px) {  
+       header, .cabecera {
         display: flex !important;
         justify-content: space-between;
         align-items: center;
