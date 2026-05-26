@@ -899,6 +899,7 @@ header, .cabecera {
         color: #FFD700;
         cursor: pointer;
         transition: transform 0.3s ease;
+}
         
     
     /* Cambiamos el contenedor para que ponga las tarjetas una debajo de la otra */
@@ -935,3 +936,4 @@ header, .cabecera {
         gap: 2.2rem;
     }
 }
+
