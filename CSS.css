@@ -394,7 +394,7 @@ header, .cabecera {
 .tarjeta-caracteristica h3 {
     font-size: 1.45rem;
     margin-bottom: 1rem;
-    color: #fff; 
+    color: #FFD700; 
     font-weight: bold;
 }
 
@@ -404,9 +404,6 @@ header, .cabecera {
     color: #f0f0f0;
 }
 
-.servi {
-  color: #FFD700;
-   }
 /* ==========================================
    ESTILOS EXCLUSIVOS - PÁGINA GALERÍA (galeria.html)
    ========================================== */
