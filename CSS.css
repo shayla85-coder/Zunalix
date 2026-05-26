@@ -807,10 +807,16 @@ color: #FFD700;
     .beneficios-servicios, .caracteristicas { 
         padding-bottom: 4rem; 
     }
+@media screen and (max-width: 768px){
 
+    .contenedor-contacto{
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+        padding: 0 1rem 4rem 1rem;
+    }
+
+}
     @media screen and (max-width: 768px) {
-
-    /* ... Tus otros estilos móviles se quedan igual ... */
 
     header, .cabecera {
         display: flex !important;
